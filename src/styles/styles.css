@@ -50,13 +50,10 @@ footer {
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: #181818;
   text-decoration: none;
-
-  text-decoration: underline wavy red;
-  text-underline-offset: 8px; /* säätää viivan etäisyyttä tekstistä */
 }
 
 .dark .site-title {
@@ -67,21 +64,9 @@ h1 {
   font-size: 1.5rem;
 }
 
-/* h1 a {
-  margin: 1rem 0;
-  font-size: 2.5rem;
-  color: #181818;
-  text-decoration: none;
-  font-size: 2rem;
+h2 {
+  font-size: 1.2rem;
 }
-
-.dark h1 a {
-  margin: 1rem 0;
-  font-size: 2.5rem;
-  color: #fff;
-  text-decoration: none;
-  font-size: 2rem;
-} */
 
 .menu {
   background: none;
@@ -133,11 +118,12 @@ h1 {
 
 .nav-mobile {
   position: absolute;
-  top: 100%; /* directly below the nav-bar */
+  top: 100%;
   left: 0;
   right: 0;
+  padding-top: 25px;
 
-  background: #fff; /* or a solid color */
+  background: #fff;
   z-index: 1000;
 
   display: none;
@@ -164,7 +150,7 @@ h1 {
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #181818;
@@ -176,16 +162,6 @@ h1 {
 
 .dark a {
   color: #e0e0e0;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  background-color: #ff9776;
-}
-
-.dark .nav-links a:hover,
-.dark .nav-links a:focus {
-  color: #0d0950;
 }
 
 .tag a {
